@@ -20,6 +20,19 @@ Load the module (found in the `dist` directory):
 </script>
 ```
 
+### With Node or another build system
+
+If you're using Node / Webpack / Rollup / Browserify, etc, simply require the language
+module, then register it with Highlight.js.
+
+```javascript
+var hljs = require('highlightjs');
+var hljsWgsl = require('highlightjs-wgsl');
+
+hljs.registerLanguage("cypher", hljsWgsl);
+hljs.highlightAll();
+```
+
 ## License
 
 See the [LICENSE](/LICENSE.md) file.
