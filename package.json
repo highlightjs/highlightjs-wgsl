@@ -1,0 +1,28 @@
+{
+  "name": "highlightjs-wgsl",
+  "version": "0.1.0",
+  "description": "highlight.js syntax definition for the WebGPU Shading Language",
+  "main": "src/languages/wgsl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highlightjs/highlightjs-wgsl.git"
+  },
+  "keywords": [
+    "WebGPU",
+    "WGSL",
+    "webgpu",
+    "wgsl",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ],
+  "author": "Arman Uguray <arman.uguray@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/highlightjs/highlightjs-wgsl/issues"
+  },
+  "homepage": "https://github.com/highlightjs/highlightjs-wgsl"
+}
