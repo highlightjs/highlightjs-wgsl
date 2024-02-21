@@ -29,7 +29,7 @@ module, then register it with Highlight.js.
 var hljs = require('highlightjs');
 var hljsWgsl = require('highlightjs-wgsl');
 
-hljs.registerLanguage("cypher", hljsWgsl);
+hljs.registerLanguage("wgsl", hljsWgsl);
 hljs.highlightAll();
 ```
 
